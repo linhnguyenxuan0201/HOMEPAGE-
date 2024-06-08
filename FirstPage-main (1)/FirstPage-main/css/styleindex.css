@@ -1,0 +1,247 @@
+body{
+    margin: 0px;
+}
+.button a {
+    text-decoration: none; 
+    color: black; 
+    padding: 10px 20px;
+    border: 1px solid black;
+    margin-right: 10px; 
+}
+
+.button a:hover {
+    color: orange; 
+}
+
+.header_line{
+    display: flex;
+    list-style: none;
+    margin-left: 24%;
+}
+
+.header_line li{
+    margin-right: 224px;
+    font-size: 20px;
+}
+
+.header_line a{
+    text-decoration: none;
+    color: white;
+    font-style : italic;
+    font-weight: bold;
+}
+
+.header{
+    background-color: black;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+h1{
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.banner_header-img img {
+    width: 100%;
+    height: 400px;
+    position: relative;
+}
+.banner_header-list{
+    position: absolute;
+    top: 25%;
+    width: 100%;
+}
+.banner_header-list ul{
+    list-style: none;
+    display: flex;
+
+}
+.banner_header-list li {
+    margin-right: 30%;
+    margin-left: 0%;
+    color: white;
+    font-size: 38px;
+    width: 33%;
+    text-align: center;
+}
+.banner_header-list input{
+    margin-left: -98%;
+    width: 300%;
+    height: 25px;
+}
+
+
+.title h1{
+    background-color: #C71717;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.room-list{
+    display: flex;
+    width: 100%;
+}
+.room-list-book{
+    width: 30%;
+    margin-right: 20px;
+}
+
+#img3 img {
+    width: 115%;
+    height: 444px;
+    margin-left: 29px;
+}
+
+#img1 img {
+    width: 103%;
+    height: 441px;
+}
+
+#img2 img {
+    width: 104%;
+    height: 442px;
+    margin-left: 10px;
+}
+
+.room-list-book p{
+    text-align: center;
+    background-color: #BCBCBC;
+}
+
+.price3 {
+    width: 50%;
+    margin-left: 99px;
+    font-size: 20px;
+    font-weight: bold;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    margin-left: 175px;
+    margin-top: 10px;
+}
+
+.price1{
+    width: 50%;
+    margin-left: 99px;
+    font-size: 20px;
+    font-weight: bold;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    margin-top: 10px;
+}
+
+.price2 {
+    width: 50%;
+    margin-left: 99px;
+    font-size: 20px;
+    font-weight: bold;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    margin-left: 127px;
+    margin-top: 10px;
+}
+
+.room-list1{
+    display: flex;
+}
+
+.room-list-book1 {
+    width: 100%;
+}
+
+#img4 img {
+    width: 90%;
+    height: 462px;
+}
+
+#img5 img {
+    width: 94%;
+    height: 463px;
+    margin-left: -30px;
+}
+
+#img6 img {
+    margin-left: -42px;
+    width: 106%;
+    height: 464px;
+}
+
+.room-list-book1 p{
+    text-align: center;
+    background-color: #BCBCBC;
+}
+
+.price4{
+    width: 50%;
+    font-size: 20px;
+    font-weight: bold;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    margin-left: 99px;
+    margin-top: 10px;
+}
+
+.price5{
+    width: 50%;
+    font-size: 20px;
+    font-weight: bold;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    margin-left: 81px;
+    margin-top: 10px;
+}
+
+.price6{
+    width: 50%;
+    font-size: 20px;
+    font-weight: bold;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    margin-left: 99px;
+    margin-top: 10px;
+}
+
+.footer {
+    background-color: #C71717;
+    padding: 10px 0px;
+}
+
+h2{
+    text-align: center;
+}
+
+.reason{
+    display: flex;
+    list-style: none;
+    justify-content:center;
+
+}
+
+.reason li {
+    margin-left: 232px;
+    margin-right: 162px;
+    color: wheat;
+    font-size: 16px;
+}
+
+.address p{
+    color: white;
+}
+
+.address a{
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

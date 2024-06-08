@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HOMESTAY</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styleindex.css">
+    <style>
+        .banner-header {
+            position: relative;
+            text-align: center;
+            color: white;
+        }
+        .banner-header img {
+            width: 100%;
+            height: auto;
+        }
+        .banner-header .overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.5);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .banner-header .overlay ul {
+            list-style: none;
+            padding: 0;
+        }
+        .banner-header .overlay li {
+            display: inline-block;
+            margin: 0 10px;
+        }
+        .banner-header .overlay input[type="text"] {
+            width: 200px;
+        }
+    </style>
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">HOMESTAY</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="#">SIGN UP</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">LOGIN</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">PROFILE</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container text-center my-5">
+        <h1 class="display-4">THE BEST HOUSE FOR YOUR CHOICE</h1>
+    </div>
+
+    <div class="container mb-5">
+        <div class="banner-header">
+            <img src="img/banner-01.jpg" alt="Homestay">
+            <div class="overlay">
+                <ul class="list-inline">
+                    <li class="list-inline-item text-white">LISTROOM</li>
+                    <li class="list-inline-item text-white">
+                        <label for="searchbox" class="text-white">Search</label>
+                        <input type="text" class="form-control d-inline" id="searchbox">
+                    </li>
+                    <li class="list-inline-item text-white">Shopping Cart</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div class="container text-center my-5">
+        <h1 class="display-4">LUXURY HOUSE</h1>
+    </div>
+
+    <div class="container mb-5">
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="img/item-01 (2).jpg" class="card-img-top" alt="">
+                    <div class="card-body">
+                        <p class="card-text">PRICE: 600$/DAY</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="img/item-02.jpg" class="card-img-top" alt="">
+                    <div class="card-body">
+                        <p class="card-text">PRICE: 600$/DAY</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="img/iem-03.jpg" class="card-img-top" alt="">
+                    <div class="card-body">
+                        <p class="card-text">PRICE: 600$/DAY</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container text-center my-5">
+        <h1 class="display-4">BEST SELLER</h1>
+    </div>
+
+    <div class="container mb-5">
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="img/item-04.jpg" class="card-img-top" alt="">
+                    <div class="card-body">
+                        <p class="card-text">PRICE: 600$/DAY</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="img/item-05.jpg" class="card-img-top" alt="">
+                    <div class="card-body">
+                        <p class="card-text">PRICE: 600$/DAY</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="img/item-06.jpg" class="card-img-top" alt="">
+                    <div class="card-body">
+                        <p class="card-text">PRICE: 600$/DAY</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="bg-light py-5">
+        <div class="container text-center">
+            <h1>COME WITH CHERY HOMESTAY</h1>
+            <h2>Wish me the honor of serving you. Your presence is our wish. You give us trust, we will give you the best service.</h2>
+            <ul class="list-unstyled">
+                <li>Easy to go</li>
+                <li>Reasonable price</li>
+                <li>Best serving</li>
+            </ul>
+            <address>
+                <p>Address: 123 Hoang Van Thu, Da Lat City, Viet Nam</p>
+                <p>Hotline: 19001001</p>
+                <p>Contact: <a href="mailto:cheryhomestay@gmail.com">cheryhomestay@gmail.com</a></p>
+            </address>
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
