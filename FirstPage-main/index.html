@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hotel Listings</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        .hotel {
+            border: 1px solid #ddd;
+            padding: 15px;
+            margin: 10px 0;
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .hotel img {
+            max-width: 100%;
+            height: auto;
+        }
+        .details {
+            flex: 1;
+        }
+        .pricing {
+            text-align: right;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-end;
+        }
+        .rating {
+            color: green;
+        }
+        .price {
+            font-size: 1.2em;
+            font-weight: bold;
+        }
+        .price-note {
+            font-size: 0.9em;
+            color: rgb(65, 154, 65);
+        }
+        .hotel-title {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+        .hotel-title h2 {
+            margin: 0;
+        }
+        .price-box {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            margin-bottom: 10px;
+            padding: 10px;
+            background-color: #f0f0f0;
+            width: 100%;
+        }
+        .price-source {
+            font-weight: bold;
+            color: black;
+        }
+        .btn-view-deal {
+            background-color: #28a745;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+            border-radius: 5px;
+            margin-left: auto;
+            text-decoration: none;
+        }
+        .btn-view-deal:hover {
+            background-color: #218838;
+        }
+        .booking-box {
+            background-color: #dff0d8;
+            padding: 10px;
+            margin-bottom: 10px;
+            text-align: center;
+            width: 100%;
+        }
+        .booking-box .price {
+            margin: 0;
+        }
+        .price-row {
+            display: flex;
+            width: 100%;
+            background-color: #f0f0f0;
+            padding: 10px;
+        }
+        .price-column {
+            flex: 1;
+            text-align: center;
+        }
+        .price-column:not(:last-child) {
+            border-right: 1px solid #ddd;
+        }
+    </style>
+</head>
+<body>
+<div class="container mt-4">
+    <div class="hotel row">
+        <div class="image col-md-4">
+            <img src="img/image2.jpg"alt="Homestay Phuoc Son" class="img-fluid">
+        </div>
+        <div class="details col-md-4">
+            <div class="hotel-title">
+                <h2>Hotel Phuoc Son</h2>
+            </div>
+            <p><strong>Type:</strong> Hotel</p>
+            <p><strong>Distance:</strong> 0.1 miles to Viet Nam Villa Resort</p>
+            <p class="rating"><strong>Rating:</strong> 8.6 - Excellent (166 reviews)</p>
+        </div>
+        <div class="pricing col-md-4">
+            <div class="price-box booking-box">
+                <span class="price-source">Booking.com</span>
+                <span class="price">$21</span>
+                <a href="#" class="btn-view-deal">View Deal</a>
+                <p class="price-note">Pay at the property</p>
+            </div>
+            <div class="price-row">
+                <div class="price-column">
+                    <p class="price-source">Expedia</p>
+                    <p class="price">$23</p>
+                </div>
+                <div class="price-column">
+                    <p class="price-source">Priceline</p>
+                    <p class="price">$20</p>
+                    <p class="price-note">Our lowest price</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="hotel row">
+        <div class="image col-md-4">
+            <img src="img/image5.jpg" alt="Nice Dream Hotel" class="img-fluid">
+        </div>
+        <div class="details col-md-4">
+            <div class="hotel-title">
+                <h2>Nice Dream Hotel</h2>
+            </div>
+            <p><strong>Type:</strong> Hotel</p>
+            <p><strong>Distance:</strong> 0.1 miles to Viet Nam Villa Resort</p>
+            <p class="rating"><strong>Rating:</strong> 7.8 - Good (22 reviews)</p>
+        </div>
+        <div class="pricing col-md-4">
+            <div class="price-box booking-box">
+                <span class="price-source">Booking.com</span>
+                <span class="price">$39</span>
+                <a href="#" class="btn-view-deal">View Deal</a>
+                <p class="price-note">Free cancellation before Jun 23</p>
+            </div>
+            <div class="price-row">
+                <div class="price-column">
+                    <p class="price-source">Priceline</p>
+                    <p class="price">$37</p>
+                </div>
+                <div class="price-column">
+                    <p class="price-source">Trip.com</p>
+                    <p class="price">$27</p>
+                    <p class="price-note">Our lowest price</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="hotel row">
+        <div class="image col-md-4">
+            <img src="img/image7.jpg" alt="Roy Dala Hotel" class="img-fluid">
+        </div>
+        <div class="details col-md-4">
+            <div class="hotel-title">
+                <h2>Roy Dala Hotel</h2>
+            </div>
+            <p><strong>Type:</strong> Entire House / Apartment</p>
+            <p><strong>Distance:</strong> 0.1 miles to Viet Nam Villa Resort</p>
+            <p class="rating"><strong>Rating:</strong> 8.4 - Very good (89 reviews)</p>
+        </div>
+        <div class="pricing col-md-4">
+            <div class="price-box booking-box">
+                <span class="price-source">Booking.com</span>
+                <span class="price">$31</span>
+                <a href="#" class="btn-view-deal">View Deal</a>
+                <p class="price-note">Free cancellation before Jun 21, Breakfast included</p>
+            </div>
+            <div class="price-row">
+                <div class="price-column">
+                    <p class="price-source">Expedia</p>
+                    <p class="price">$26</p>
+                </div>
+                <div class="price-column">
+                    <p class="price-source">Priceline</p>
+                    <p class="price">$24</p>
+                    <p class="price-note">Our lowest price</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Bootstrap JS and dependencies -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
